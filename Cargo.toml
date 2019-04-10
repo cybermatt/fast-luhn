@@ -1,0 +1,19 @@
+[package]
+name = "fast_luhn"
+version = "0.1.2"
+authors = ["Matt Stroganov <strmatvey@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rand = "0.6"
+
+[dependencies.pyo3]
+version = "*"
+features = ["extension-module"]
+
+[lib]
+name = "fast_luhn"
+crate-type = ["cdylib"]
+
+[package.metadata.pyo3-pack]
+classifier = ["Programming Language :: Python"]

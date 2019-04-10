@@ -1,0 +1,4 @@
+pytest>=3.5.0
+wheel==0.31.1
+auditwheel==2.0.0
+setuptools-rust>=0.10.2
