@@ -22,7 +22,7 @@ def read(fname):
 
 setup(
     name='fast-luhn',
-    version='0.1.2',
+    version='0.1.3',
     description='Fast Luhn algorithm',
     long_description=read('README.rst'),
     keywords='luhn validation',
