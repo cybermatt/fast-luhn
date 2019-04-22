@@ -9,7 +9,7 @@ Rust realization for speed-up python code. See benchmark_ for details.
 .. _Luhn-algorithm: https://en.wikipedia.org/wiki/Luhn_algorithm
 
 :Author: Matt Stroganov
-:Version: 0.1.2
+:Version: 0.1.3
 
 
 Installation
