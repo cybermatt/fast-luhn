@@ -22,7 +22,7 @@ def read(fname):
 
 setup(
     name='fast-luhn',
-    version='0.1.3',
+    version='0.1.5',
     description='Fast Luhn algorithm',
     long_description=read('README.rst'),
     keywords='luhn validation',
@@ -49,12 +49,12 @@ setup(
         'Operating System :: MacOS :: MacOS X',
         'Programming Language :: Rust',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
     ],
     setup_requires=[
         'setuptools',

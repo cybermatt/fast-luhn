@@ -4,12 +4,12 @@ fast-luhn
 
 Luhn-algorithm_. Generate and validate strings of numbers. 
 It is used for account number validation, credit card validation, data verification, cryptography, decoding, etcetera.
-Rust realization for speed-up python code. See benchmark_ for details.
+Rust realization for speed-up python code. Thread-safe. See benchmark_ for details.
 
 .. _Luhn-algorithm: https://en.wikipedia.org/wiki/Luhn_algorithm
 
 :Author: Matt Stroganov
-:Version: 0.1.2
+:Version: 0.1.5
 
 
 Installation

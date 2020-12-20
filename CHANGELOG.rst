@@ -3,6 +3,11 @@ Changelog
 =========
 
 
+0.1.5
+-----
+* Added python 3.8 and 3.9 support
+
+
 0.1.3
 -----
 

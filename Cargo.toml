@@ -1,6 +1,6 @@
 [package]
 name = "fast_luhn"
-version = "0.1.3"
+version = "0.1.5"
 authors = ["Matt Stroganov <strmatvey@gmail.com>"]
 edition = "2018"
 
@@ -8,7 +8,7 @@ edition = "2018"
 rand = "0.6"
 
 [dependencies.pyo3]
-version = "*"
+version = "0.12.4"
 features = ["extension-module"]
 
 [lib]

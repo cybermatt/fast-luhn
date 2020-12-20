@@ -8,9 +8,8 @@ use pyo3::types::PyModule;
 use rand::{thread_rng, Rng};
 
 
-
 /// Luhn algorithm library.
-#[pymodinit(fast_luhn)]
+#[pymodule(fast_luhn)]
 fn init_module(_py: Python, m: &PyModule) -> PyResult<()> {
 
     /// validate(string: str) -> bool
