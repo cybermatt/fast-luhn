@@ -2,6 +2,9 @@ import sys
 
 from setuptools import setup
 
+import fast_luhn as module
+
+
 try:
     from setuptools_rust import RustExtension, Binding, Strip
 except ImportError:
@@ -22,12 +25,12 @@ def read(fname):
 
 setup(
     name='fast-luhn',
-    version='0.1.5',
+    version=module.__version__,
+    author=module.__author__,
     description='Fast Luhn algorithm',
     long_description=read('README.rst'),
     keywords='luhn validation',
     url='https://github.com/cybermatt/fast-luhn',
-    author='Matt Stroganov',
     author_email='strmatvey@gmail.com',
     license='MIT',
     packages=[
@@ -45,6 +48,9 @@ setup(
         'Development Status :: 4 - Beta',
         'License :: OSI Approved :: MIT License',
         'Intended Audience :: Developers',
+        'Security :: Cryptography',
+        'Text Processing :: General',
+        'Scientific/Engineering :: Information Analysis',
         'Operating System :: POSIX :: Linux',
         'Operating System :: MacOS :: MacOS X',
         'Programming Language :: Rust',
