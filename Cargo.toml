@@ -17,3 +17,11 @@ crate-type = ["cdylib"]
 
 [package.metadata.pyo3-pack]
 classifier = ["Programming Language :: Python"]
+
+[package.metadata]
+
+[package.metadata.docs.rs]
+targets = ["x86_64-apple-darwin"]
+
+[target.'cfg(target_os = "macos")]
+macosx-deployment-target = "10.13"
