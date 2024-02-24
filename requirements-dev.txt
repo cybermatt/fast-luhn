@@ -1,4 +1,5 @@
-pytest>=3.5.0
-wheel==0.38.1
-auditwheel==2.0.0
-setuptools-rust>=0.10.2
+pytest>=8.0.1
+wheel==0.42.0
+auditwheel>=6.0.0
+setuptools-rust>=1.8.1
+maturin==1.4.0
