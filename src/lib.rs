@@ -1,4 +1,3 @@
-#![feature(specialization)]
 extern crate pyo3;
 extern crate rand;
 
@@ -76,7 +75,7 @@ mod luhn {
     }
 
     pub fn digit(string: &str) -> u32{
-        let mut valid_string = string.clone().to_string();
+        let mut valid_string = string.to_string();
         valid_string.push_str("0");
         let chsum = checksum(&valid_string);
         let x = 10 - (chsum % 10);

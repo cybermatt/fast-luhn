@@ -1,6 +1,6 @@
 [package]
 name = "fast_luhn"
-version = "0.1.5"
+version = "0.2.0"
 authors = ["Matt Stroganov <strmatvey@gmail.com>"]
 edition = "2018"
 

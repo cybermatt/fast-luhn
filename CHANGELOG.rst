@@ -2,9 +2,15 @@
 Changelog
 =========
 
+0.2.0
+-----
+
+* Added Maturin backend
+
 
 0.1.5
 -----
+
 * Added python 3.8 and 3.9 support
 
 

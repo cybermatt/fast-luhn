@@ -9,7 +9,7 @@ Rust realization for speed-up python code. Thread-safe. See benchmark_ for detai
 .. _Luhn-algorithm: https://en.wikipedia.org/wiki/Luhn_algorithm
 
 :Author: Matt Stroganov
-:Version: 0.1.5
+:Version: 0.2.0
 
 
 Installation
@@ -73,7 +73,7 @@ Install from sources:
    $ git clone https://github.com/cybermatt/fast-luhn
    $ cd fast-luhn
    $ pip install -r requirements-dev.txt
-   $ python ./setup.py develop
+   $ maturin develop
 
 
 Benchmark
@@ -108,7 +108,7 @@ Tests
 
 ::
 
-   $ pytest -v tests.py 
+   $ pytest -v
 
 
 License
