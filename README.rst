@@ -73,7 +73,7 @@ Install from sources:
    $ git clone https://github.com/cybermatt/fast-luhn
    $ cd fast-luhn
    $ pip install -r requirements-dev.txt
-   $ python ./setup.py develop
+   $ maturin develop
 
 
 Benchmark
@@ -108,7 +108,7 @@ Tests
 
 ::
 
-   $ pytest -v tests.py 
+   $ pytest -v
 
 
 License
